@@ -1,16 +1,16 @@
 development:
   adapter: postgresql
   database: prelaunchr_development
-  pool: 5
   host: localhost
+  pool: 5
   port: 5432
   username: prelaunchr
   password: travelmore
 test:
   adapter: postgresql
   database: prelaunchr_test
-  pool: 5
   host: localhost
+  pool: 5
   port: 5432
   username: prelaunchr
   password: travelmore
