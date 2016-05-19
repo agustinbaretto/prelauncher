@@ -32,6 +32,7 @@ config/secrets.yml
 .rvmrc
 # Ignore the default database config
 config/database.yml
+config/environments/*.rb
 
 # Ignore all logfiles and tempfiles.
 /lib/assets/*.csv
