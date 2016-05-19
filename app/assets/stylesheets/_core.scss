@@ -2,12 +2,36 @@
 /* General
 /*-------------------------------------------------------*/
 @font-face {
-  font-family: "AvenirNext";
-  src: url(/fonts/AvenirNext.ttc);
+  font-family: "AvenirNext-Regular";
+  src: url(../fonts/AvenirNext-Regular.ttf);
+}
+@font-face {
+  font-family: "AvenirNext-Medium";
+  src: url(../fonts/AvenirNext-Medium.ttf);
+}
+@font-face {
+  font-family: "AvenirNext-Italic";
+  src: url(../fonts/AvenirNext-Italic.ttf);
+}
+@font-face {
+  font-family: "AvenirNext-Bold";
+  src: url(../fonts/AvenirNext-Bold.ttf);
+}
+@font-face {
+  font-family: "AvenirNext-BoldItalic";
+  src: url(../fonts/AvenirNext-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "AvenirNext-DemiBold";
+  src: url(../fonts/AvenirNext-DemiBold.ttf);
+}
+@font-face {
+  font-family: "AvenirNext-DemiBoldItalic";
+  src: url(../fonts/AvenirNext-DemiBoldItalic.ttf);
 }
 @font-face {
   font-family: "SharpSansNo1";
-  src: url(/fonts/SharpSansNo1-Extrabold.otf);
+  src: url(../fonts/SharpSansNo1-Extrabold.otf);
 }
 
 @font-family-sans-serif:  "AvenirNext-Regular", Helvetica, Arial, sans-serif;
