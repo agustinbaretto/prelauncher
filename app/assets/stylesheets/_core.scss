@@ -78,7 +78,7 @@ html.home{
 	margin: 0 auto;
 }
 
-#home .hero .large{
+#home .hero h1{
 	font-weight: bold;
 	font-size: 40px;
     font-family: SharpSansNo1-Extrabold;
@@ -101,7 +101,6 @@ html.home{
 	position: relative;
 	z-index: 2;
 	text-align: center;
-    width: 388px;
     letter-spacing: 1px;
     top: 20%;
     left: 10%;
@@ -373,11 +372,8 @@ html.home{
 }
 
 #refer .share-wrap{
-	float: right;
-	width: 400px;
 	text-align: center;
-	letter-spacing: .13em;
-	margin-right: 60px;
+    padding-top: 50px;
 }
 
 #refer .share-wrap .why{
@@ -387,22 +383,24 @@ html.home{
 	margin-top: 42px;
 }
 
-#refer .share-wrap .title{
+#refer .hero h1{
     font-family: 'SharpSansNo1-Extrabold', Helvetica, Arial, sans-serif;
     font-size: 25px;
 	line-height: 1;
 	color: #FFF;
 	margin-top: 52px;
 	letter-spacing: .13em;
+    text-align: center;
 }
 
-#refer .share-wrap .subtitle{
+#refer .subtitle{
   font-family: AvenirNext-Regular;
   font-size: 12px;
   line-height: 1.3;
   text-align: center;
   color: #9b9b9b;
   margin-top: 26px;
+  text-align: center;
 }
 
 #refer .share-wrap .copy-link{

@@ -4,17 +4,16 @@
   </div>
 </div>
 
-<div class="hero">
-  <div class="page-content clearfix">
-    <div class="mammoth">
-      <span class="need brandon"></span>
+<div class="container-fluid hero">
+  <div class="row">
+    <div class="col-md-5 col-md-offset-1">
+      <div class="mammoth"></div>
     </div>
-    <div class="share-wrap">
-      <p class="why brandon"></p>
-      <p class="title brandon">We invite you to share us<br>to win rewards</p>
-      <p class="subtitle brandon">Share your link via e-mail, Facebook or Twitter and earn Bluesmart goods for every person who signs up.</p>
+    <div class="col-md-5 share-wrap">
+      <h1>We invite you to share us to win rewards</h1>
+      <p class="subtitle">Share your link via e-mail, Facebook or Twitter and earn Bluesmart goods for every person who signs up.</p>
       <div class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
-      <% twitter_message = "#Shaving is evolving. Excited for @harrys to launch." %>
+      <% twitter_message = "I've gained early access to the new @bluesmart suitcase launch. Check it out here" %>
       <div class="social-links">
         <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=Bluesmart" class="fb" target="_blank"></a>
         <div class="sep"></div>
