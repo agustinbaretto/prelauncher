@@ -15,32 +15,32 @@ class User < ActiveRecord::Base
 
   REFERRAL_STEPS = [
     {
-      'count' => 5,
-      'html' => 'Bluesmart<br>Tee',
-      'class' => 'two',
-      'image' =>  ActionController::Base.helpers.asset_path(
-        'refer/cream-tooltip@2x.png')
-    },
-    {
       'count' => 10,
       'html' => 'VIP Fan<br>Pack',
-      'class' => 'three',
-      'image' => ActionController::Base.helpers.asset_path(
-        'refer/truman@2x.png')
+      'class' => 'two',
+      'image' =>  ActionController::Base.helpers.asset_path(
+        'refer/x@2x.png')
     },
     {
       'count' => 25,
-      'html' => 'Discount<br>Code ($50)',
+      'html' => 'VIP Fan<br>Pack',
+      'class' => 'three',
+      'image' => ActionController::Base.helpers.asset_path(
+        'refer/x@2x.png')
+    },
+    {
+      'count' => 100,
+      'html' => 'Bluesmart<br>One',
       'class' => 'four',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/winston@2x.png')
+        'refer/x@2x.png')
     },
     {
       'count' => 50,
-      'html' => 'Discount<br>Code ($100)',
+      'html' => 'Bluesmart<br>Black Edition ($200)',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/blade-explain@2x.png')
+        'refer/x@2x.png')
     }
   ]
 
