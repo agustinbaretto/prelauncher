@@ -36,7 +36,7 @@ class User < ActiveRecord::Base
         'refer/x@2x.png')
     },
     {
-      'count' => 50,
+      'count' => 200,
       'html' => 'Bluesmart Black Edition<br>Suitcase',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
