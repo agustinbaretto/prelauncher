@@ -30,7 +30,7 @@
   src: url(./AvenirNext-DemiBoldItalic.ttf);
 }
 @font-face {
-  font-family: "SharpSansNo1";
+  font-family: "SharpSansNo1-Extrabold";
   src: url(./SharpSansNo1-Extrabold.otf);
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'SharpSansNo1', Helvetica, Arial, sans-serif;
+  font-family: SharpSansNo1-Extrabold;
   margin-top: 10px;
   margin-bottom: 10px;
   letter-spacing: 0.7px;
@@ -403,7 +403,7 @@ html.home{
 }
 
 #refer .hero h1{
-    font-family: 'SharpSansNo1-Extrabold', Helvetica, Arial, sans-serif;
+    font-family: SharpSansNo1-Extrabold;
     font-size: 25px;
 	line-height: 1;
 	color: #FFF;
