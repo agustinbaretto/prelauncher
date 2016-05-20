@@ -13,13 +13,12 @@
   <meta property="og:description" content="I've gained early access to the new @bluesmart suitcase launch. Check it out here "/>
   <meta property="og:image" content="http://prelaunch.bluesmart.com/assets/home/suitcase.jpg"/>
   <meta property="og:url" content="<%= root_url %>"/>
-  <% if @is_mobile %>
-    <% if @bodyId == 'home' %>
-      <meta name="viewport" content="width=1600" />
-    <% else %>
-      <meta name="viewport" content="width=1120" />
-    <% end %>
-  <% end %>
+
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="">
+
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= csrf_meta_tags %>
 </head>

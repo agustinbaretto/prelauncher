@@ -93,13 +93,8 @@ html.home{
 
 #home .hero{
 	width: 100%;
-	height: 446px;
-	background: image-url("home/hero.jpg") center center no-repeat;
-	background-size: 1600px 446px;
-	overflow: hidden;
-	position: relative;
-	letter-spacing: .09em;
-	margin: 0 auto;
+	margin: 0;
+    background-color: #000;
 }
 
 #home .hero h1{
@@ -137,7 +132,7 @@ html.home{
 	width: 52px;
 	height: 58px;
 	margin: 0 auto;
-	background: image-url("home/key.png") 0 0 no-repeat;
+	background: image-url("home/key@2x.png") 0 0 no-repeat;
 	background-size: 52px 58px;
 }
 
@@ -353,7 +348,7 @@ html.home{
 	line-height: 0;
 	margin-right: 14px;
 	letter-spacing: 1px;
-	background: image-url("refer/logo.png") 0 0 no-repeat;
+	background: image-url("refer/logo@2x.png") 0 0 no-repeat;
 	background-size: 182px 40px;
 	height: 40px;
 	width: 182px;
@@ -370,7 +365,7 @@ html.home{
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
-	background: image-url("refer/suitcase.png") 0 0 no-repeat;
+	background: image-url("refer/suitcase@2x.png") 0 0 no-repeat;
 	background-size: 100%;
 	overflow: hidden;
 	margin-top: 15px;
@@ -443,14 +438,14 @@ html.home{
 }
 
 #refer .share-wrap .social-links .fb{
-	background: image-url("refer/fb.png");
+	background: image-url("refer/fb@2x.png");
 	background-size: 27px 27px;
 	width: 27px;
 	height: 27px;
 }
 
 #refer .share-wrap .social-links .twit{
-	background: image-url("refer/twit.png");
+	background: image-url("refer/twit@2x.png");
 	background-size: 27px 27px;
 	width: 27px;
 	height: 27px;
@@ -488,7 +483,7 @@ html.home{
 #refer .prizes .progress{
 	height: 4px;
 	width: 100%;
-	background: image-url("refer/progress-bg.png") 0 0 repeat-x;
+	background: image-url("refer/progress@2x.png") 0 0 repeat-x;
 	background-size: 1px 4px;
 	position: absolute;
 	top: 100px;
@@ -502,7 +497,7 @@ html.home{
 }
 
 #refer .prizes .progress .mover .bar{
-	background: image-url("refer/progress-done.png") 0 0 repeat-x;
+	background: image-url("refer/progress-done@2x.png") 0 0 repeat-x;
 	width: 165px;
 	height: 4px;
 	-webkit-background-size: 1px 4px;
@@ -679,69 +674,4 @@ html.home{
 	margin-top: 5px;
 	display: block;
 	text-decoration: none;
-}
-
-
-
-/*
-	RETINA
-*/
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-	#home .hero{
-		background: image-url("home/hero@2x.jpg") center center no-repeat;
-		background-size: 1600px 446px;
-	}
-
-	#home .form-wrap .key{
-		background: image-url("home/key@2x.png") 0 0 no-repeat;
-		background-size: 52px 58px;
-	}
-
-	#refer .header .logo{
-		background: image-url("refer/logo.png") 0 0 no-repeat;
-		background-size: 182px 40px;
-	}
-
-	#refer .mammoth{
-		background: image-url("refer/suitcase@2x.png") 0 0 no-repeat;
-		background-size: 100%;
-	}
-
-	#refer .share-wrap .social-links .fb{
-		background: image-url("refer/fb@2x.png");
-		background-size: 27px 27px;
-	}
-
-	#refer .share-wrap .social-links .twit{
-		background: image-url("refer/twit@2x.png");
-		background-size: 27px 27px;
-	}
-
-	#refer .prizes .progress{
-		background: image-url("refer/progress-bg@2x.png") 0 0 repeat-x;
-		background-size: 1px 4px;
-	}
-
-	#refer .prizes .progress .mover .bar{
-		background: image-url("refer/progress-done@2x.png") 0 0 repeat-x;
-		background-size: 1px 4px;
-	}
-
-	#refer .prizes .progress .mover .razor{
-		background: image-url("refer/razor@2x.png") 0 0 no-repeat;
-		background-size: 82px 23px;
-	}
-
-	#refer .prizes .products li.product .caret{
-		background: image-url("refer/caret@2x.png") center center no-repeat;
-		background-size: 16px 10px;
-	}
-
-	#refer .prizes .products li.product.selected .caret{
-		background: image-url("refer/caret-selected@2x.png") center center no-repeat;
-		background-size: 16px 10px;
-	}
 }
