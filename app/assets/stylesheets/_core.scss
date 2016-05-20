@@ -103,32 +103,28 @@ html.home{
 }
 
 #home .hero h1{
-	font-weight: bold;
-	font-size: 40px;
     font-family: SharpSansNo1-Extrabold;
-    font-size: 25px;
-    line-height: 1.2;
-    text-align: center;
-    color: #ffffff;
-	margin: 85px 0 0 136px;
-	position: relative;
-	z-index: 2;
-	letter-spacing: 2px;
-}
-
-#home .hero .small{
-    font-family: SharpSansNo1-Extrabold;
-    font-size: 25px;
+    font-size: 40px;
     line-height: 1.2;
     text-align: center;
     color: #ffffff;
 	position: relative;
 	z-index: 2;
-	text-align: center;
     letter-spacing: 1px;
     top: 20%;
     left: 10%;
-	letter-spacing: 1px;
+}
+
+#home .hero .small{
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  z-index: 2;
+  letter-spacing: 1px;
+  top: 20%;
+  left: 10%;
 }
 
 #home .form-wrap{
@@ -368,7 +364,6 @@ html.home{
 
 #refer .hero{
 	background: #000;
-	height: 391px;
 	overflow: hidden;
 }
 
@@ -376,7 +371,7 @@ html.home{
 	width: 612px;
 	height: 394px;
 	background: image-url("refer/suitcase.png") 0 0 no-repeat;
-	background-size: 610px 394px;
+	background-size: 100%;
 	overflow: hidden;
 	margin-top: 15px;
 	float: left;
@@ -413,13 +408,12 @@ html.home{
 	line-height: 1;
 	color: #FFF;
 	margin-top: 52px;
-	letter-spacing: .13em;
     text-align: center;
 }
 
 #refer .subtitle{
   font-family: AvenirNext-Regular;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.3;
   text-align: center;
   color: #9b9b9b;
@@ -713,7 +707,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 	#refer .mammoth{
 		background: image-url("refer/suitcase@2x.png") 0 0 no-repeat;
-		background-size: 610px 394px;
+		background-size: 100%;
 	}
 
 	#refer .share-wrap .social-links .fb{
