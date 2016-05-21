@@ -1,15 +1,15 @@
 <div class="row hero container-fluid">
-    <div class="col-md-4 col-md-offset-1 col-sm-4 col-xs-10" style="padding-top: 75px;">
+    <div class="col-md-4 col-md-offset-1 col-sm-4 col-xs-10" style="padding-top: 5%;">
         <h1>Black Edition</h1>
         <p class="small brandon">The creators of smart luggage are launching their next product</p>
     </div>
-    <div class="col-md-5 col-sm-8 col-xs-10" style="padding-top: 25px;">
+    <div class="col-md-5 col-sm-8 col-xs-10" style="padding-top: 30px;">
         <img class="slider-image" src="assets/home/hero.jpg" alt="Bluesmart carry-on">
     </div>
 </div>
 
 
-<div class="form-wrap clearfix <%= "ended" if Rails.application.config.ended %>">
+<div class="form-wrap container <%= "ended" if Rails.application.config.ended %>">
   <% if Rails.application.config.ended %>
     <%= render "users/campaign_ended" %>
   <% else %>

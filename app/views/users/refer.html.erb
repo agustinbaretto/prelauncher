@@ -1,15 +1,31 @@
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.10/clipboard.min.js"></script>
 <div class="header">
   <div class="content">
     <p class="logo brandon"></p><p>THANK YOU FOR SIGNING UP</p>
   </div>
 </div>
 
+<script>
+    var clipboard = new Clipboard('.btn');
+
+    clipboard.on('success', function(e) {
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+
+        e.clearSelection();
+    });
+</script>
+
 <div class="container-fluid hero">
   <div class="row">
     <div class="col-sm-12 col-md-5 col-md-push-7 col-lg-5 col-lg-push-6 share-wrap" style="z-index: 999">
       <h1>We invite you to share us<br/>to win rewards</h1>
       <p class="subtitle">Share your unique link via e-mail, Facebook or Twitter<br> and earn Bluesmart goods for every person who signs up.</p>
-      <div class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
+        <div class="input-group" style="padding: 30px;">
+            <input style="text-align: center;" id="link" type="text" readonly value="<%= root_url %>?ref=<%= @user.referral_code %>" class="form-control" aria-describedby="basic-addon2">
+            <span class="input-group-addon btn" data-clipboard-target="#link">copy link</span>
+        </div>
       <% twitter_message = "I've gained early access to the new @bluesmart suitcase launch. Check it out here" %>
       <div class="social-links">
         <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=Bluesmart" class="fb" target="_blank"></a>
